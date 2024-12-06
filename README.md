@@ -90,15 +90,12 @@ Contributions are welcome! Follow these steps to contribute:
 2. Create a new branch:
    ```bash
    git checkout -b feature-name
-   ```
 3. Commit your changes:
    ```bash
    git commit -m "Add new feature or fix a bug"
-   ```
 4. Push to your forked repository:
    ```bash
    git push origin feature-name
-   ```
 5. Submit a Pull Request (PR) with a detailed description of your changes.
 
 
