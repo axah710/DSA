@@ -1,42 +1,42 @@
 ```markdown
-# Data Structures and Algorithms (DSA) in Dart 🚀
+ Data Structures and Algorithms (DSA) in Dart 🚀
 
-Welcome to the **Data Structures and Algorithms (DSA)** repository, where you'll find a comprehensive collection of DSA concepts and implementations in **Dart**. Whether you're a beginner looking to strengthen your foundational skills or an experienced developer brushing up on algorithms, this repository is your go-to resource! 🎯
+Welcome to the*Data Structures and Algorithms (DSA) repository, where you'll find a comprehensive collection of DSA concepts and implementations in **Dart**. Whether you're a beginner looking to strengthen your foundational skills or an experienced developer brushing up on algorithms, this repository is your go-to resource! 🎯
 
 ---
 
-## 📚 Topics Covered
+ 📚 Topics Covered
 
-### 📊 Big O Notation
+ 📊 Big O Notation
 - Master the art of analyzing algorithm efficiency.
 - Understand time and space complexity for better optimization.
 
-### 🔎 Search and Sort Algorithms
+ 🔎 Search and Sort Algorithms
 - Dive into the implementation of popular algorithms:
   - Binary Search
   - Merge Sort
   - Quick Sort
   - And more!
 
-### 🛠️ Filtering Techniques
+ 🛠️ Filtering Techniques
 - Learn optimized methods for data filtering to improve performance.
 
-### 🔗 Linked Lists
+ 🔗 Linked Lists
 - Grasp the fundamentals of linked lists and their operations.
 
-### 🔄 Recursion
+ 🔄 Recursion
 - Explore recursive solutions for common problems.
 
 ---
 
-## 💡 Why Dart for DSA?
+ 💡 Why Dart for DSA?
 Dart is an expressive and modern programming language that combines object-oriented and functional programming paradigms. Using Dart for DSA helps you:
 - Write concise and readable code.
 - Seamlessly integrate DSA concepts into Flutter and other Dart-based applications.
 
 ---
 
-## 🚀 Getting Started
+ 🚀 Getting Started
 
 Follow these steps to set up the project on your local machine:
 
