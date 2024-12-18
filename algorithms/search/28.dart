@@ -3,9 +3,9 @@
 
 void main() {
   int LinearSearch(List<int> numbers, int target) {
-    for (int i = 0; i < numbers.length; i++) {
-      if (numbers[i] == target) {
-        return i;
+    for (int index = 0; index < numbers.length; index++) {
+      if (numbers[index] == target) {
+        return index;
       }
     }
     return -1;
