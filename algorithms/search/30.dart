@@ -10,35 +10,44 @@ main() {
     8,
     9,
   ];
-  // create a fun then pass list and value
+
+  ///! Function to perform binary search
   int binarySearch(List<int> numbers, int target) {
-    // in inital step left pointer will be zero index and right will be length-1
+    //! Step 1: Initialize left and right pointers
     int left = 0;
     int right = numbers.length - 1;
-    // middle pointer will be (left+right)/2
+
+    //! Step 2: Calculate the middle pointer
     int middle = (left + right) ~/ 2;
-    // will print the points
+
+    //! Step 3: Print initial pointers for debugging
     print("left: $left, right: $right, middle: $middle");
-    // if the target is greater than the middle value then we will move the left pointer to the middle value + 1
-    // if the target is less than the middle value then we will move the right pointer to the middle value - 1
+
+    //! Step 4: Perform binary search loop
     while (numbers[middle] != target && left <= right) {
-      // why ? left <= right because if the left pointer is greater than the right pointer then the target is not found
+      //! Condition to ensure the left pointer does not exceed the right pointer
       print("left: $left, right: $right, middle: $middle");
+
+      //! Step 5: Adjust pointers based on comparison
       if (numbers[middle] < target) {
+        //! Move the left pointer to the right of the middle
         left = middle + 1;
       } else {
+        //! Move the right pointer to the left of the middle
         right = middle - 1;
       }
-      // when chang the pointers i need to move the middle pointer to the new middle value
+
+      //! Step 6: Recalculate the middle pointer
       middle = (left + right) ~/ 2;
     }
-    // if the target is found then we will return the index of the target
-    if (numbers[middle] == target) {
-      return middle;
-    }
-    // if the target is not found then we will return -1
+
+    //! Step 7: Check if the target is found
+    if (numbers[middle] == target) return middle;
+
+    //! Step 8: Return -1 if the target is not found
     return -1;
   }
 
+  //! Perform the binary search and print the result
   print("Index of 5: ${binarySearch(numbers, 5)}");
 }
