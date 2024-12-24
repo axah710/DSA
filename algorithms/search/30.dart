@@ -11,7 +11,7 @@ main() {
     9,
   ];
 
-  ///! Function to perform binary search
+  ////! Function to perform binary search
   int binarySearch(List<int> numbers, int target) {
     //! Step 1: Initialize left and right pointers
     int left = 0;
