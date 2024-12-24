@@ -50,4 +50,5 @@ main() {
 
   //! Perform the binary search and print the result
   print("Index of 5: ${binarySearch(numbers, 5)}");
+  //! Complexity in worst case: O(log n)
 }
