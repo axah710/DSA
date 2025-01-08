@@ -8,11 +8,12 @@ Welcome to the **Data Structures and Algorithms (DSA)** repository! This reposit
 
 ### 1. **Big O Notation**
    - Learn to analyze the efficiency and complexity of algorithms.
-   - Examples and explanations for constant, linear, logarithmic, and quadratic complexities.
 
 ### 2. **Search and Sort Algorithms**
    - Implementation of popular algorithms:
+     - **Linear Search** 
      - **Binary Search**
+     - **Naïve Search**
      - **Merge Sort**
      - **Quick Sort**
      - **Bubble Sort**
@@ -23,16 +24,6 @@ Welcome to the **Data Structures and Algorithms (DSA)** repository! This reposit
    - Optimized methods for data filtering.
    - Practical examples to enhance understanding.
 
-### 4. **Linked Lists**
-   - Implementation of singly and doubly linked lists.
-   - Common operations:
-     - Insertion
-     - Deletion
-     - Traversal
-
-### 5. **Recursion**
-   - Recursive solutions to common problems.
-   - Insights into recursion trees and stack memory usage.
 
 ---
 
