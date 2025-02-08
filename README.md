@@ -14,10 +14,9 @@ Welcome to the **Data Structures and Algorithms (DSA)** repository! This reposit
      - **Linear Search** 
      - **Binary Search**
      - **Naïve Search**
-     - **Merge Sort**
-     - **Quick Sort**
      - **Bubble Sort**
      - **Selection Sort**
+     - **Insertion Sort**
    - In-depth explanations and comparisons.
 
 ### 3. **Filtering Techniques**
